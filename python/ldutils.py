@@ -24,8 +24,12 @@ def get_ld_api_key():
 
 # Init the LaunchDarkly API
 def ldclient_init():
-    ldclient.set_config(Config(get_ld_api_key()))
-    if ldclient.get().is_initialized():
-        print('LaunchDarkly SDK successfully initialized!')
+    api_key = get_ld_api_key()
+    if api_key is not None:
+        ldclient.set_config(Config(get_ld_api_key()))
+        if ldclient.get().is_initialized():
+            print('LaunchDarkly SDK successfully initialized!')
+        else:
+            raise Exception('LaunchDarkly SDK failed to initialize.')
     else:
-        raise Exception('LaunchDarkly SDK failed to initialize.')
+        raise Exception('LaunchDarkly SDK API Key is not set')
