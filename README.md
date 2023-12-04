@@ -69,7 +69,7 @@ Depending on the setting of a feature flag and a targeting rule, the response wi
 
   <img src="images/new-ui-page.png" alt="new-ui-page" width="700"/>
 
-Revert the default rule for unmatched contexts for the <code>use_new_ui</code> feature flag back <code>Disabled</code> and confirm the old UI is displayed again.
+Revert the default rule for unmatched contexts for the <code>use_new_ui</code> feature flag back to <code>Disabled</code> and confirm the old UI is displayed again.
 
 ## Add a target for an individual user
 
