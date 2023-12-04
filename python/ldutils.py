@@ -2,9 +2,7 @@
 
 """
 Utils for working with LaunchDarkly
-
 Assumes the LaunchDarkly SDK API Key has been set in the environment variable LAUNCH_DARKLY_SDK_API_KEY
-
 For example: $ export LAUNCH_DARKLY_SDK_API_KEY="sdk-1a1a1a1a1a-1a1a-1a1a-1a1a-1a1a1a1a1a1a"
 """
 
