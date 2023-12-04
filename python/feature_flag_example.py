@@ -38,5 +38,5 @@ class FeatureFlagExample:
             # Use the new UI (mocked up as a png file)
             return '../images/new-ui.png'
         else:
-            # Use the ild UI (mocked up as a png file)
+            # Use the old UI (mocked up as a png file)
             return '../images/old-ui.png'
