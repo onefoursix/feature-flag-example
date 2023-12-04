@@ -41,7 +41,7 @@ Depending on the setting of a feature flag and a targeting rule, the response wi
 
   <code>$ export LAUNCH_DARKLY_SDK_API_KEY="sdk-1a1a1a1a1a-1a1a-1a1a-1a1a-1a1a1a1a1a1a"</code>
 
-- By default, the example service listens on port 8888; you can change that if you like by editing the <code>port</code> variable's value [here](https://github.com/onefoursix/feature-flag-example/blob/b64b02107146c18cae403c96c3c649b2d218931e/python/main.py#L45)</code>.  Make sure your firewall rules allow inbound connections on the specified port.
+- By default, the example service listens on port 8888; you can change that if you like by editing the <code>port</code> variable's value [here](https://github.com/onefoursix/feature-flag-example/blob/8bbe6d7fabe0d4148bd22d1bd589ec0716b8e3b6/python/main.py#L13)</code>.  Make sure your firewall rules allow inbound connections on the specified port.
 
 
 ## Run the example 
