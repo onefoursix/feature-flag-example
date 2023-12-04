@@ -23,7 +23,7 @@ def handle_request():
         # Parse the query string
         request_args = request.args.to_dict()
 
-        # See is a user arg is present
+        # See if a user arg is present
         if 'user' in request_args.keys():
             user = request_args['user']
         else:
