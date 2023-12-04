@@ -73,7 +73,7 @@ Revert the default rule for unmatched contexts for the <code>use_new_ui</code> f
 
 ## Add a target for an individual user
 
-- Add a target that enables the <code>use_new_ui</code> feature flag for an individual user. In my case I will enable the flag for the the user <code>pricilla</code>:
+- Add a target that enables the <code>use_new_ui</code> feature flag for an individual user. In my case I will enable the flag for the user <code>pricilla</code>:
 
   <img src="images/pricilla-rule.png" alt="pricilla-rule" width="700"/>
 
